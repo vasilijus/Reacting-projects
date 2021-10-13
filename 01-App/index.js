@@ -7,3 +7,4 @@ const App = () => {
 
 console.log('movie app');
 
+ReactDOM.render( <App/>, document.getElementById('root') );
