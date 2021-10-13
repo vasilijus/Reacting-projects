@@ -22,15 +22,17 @@ class List extends Component {
         }
         
     }
+
                 
     render() {
         console.log(JSON.stringify(testData)); // works
+
+        const { data , loading } = this.state;
         
+     
+
         return(
-            <div>
-                <h1>Hello List</h1>
-                <Card />
-            </div>
+            testData.map(movie => <Card key={ movie.id } movie={ movie } />)
         );
     }
 };
