@@ -18,3 +18,7 @@ Not to forget create - index.js
 Therefore, we should install the html-webpack-plugin package as a
 devDependency:
  npm install --save-dev html-webpack-plugin
+
+## Creating a dev server 
+Instead of running each time - npm start , we make a server that wathces our changes
+npm i --save-dev webpack-dev-server
