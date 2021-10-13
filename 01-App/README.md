@@ -22,3 +22,6 @@ devDependency:
 ## Creating a dev server 
 Instead of running each time - npm start , we make a server that wathces our changes
 npm i --save-dev webpack-dev-server
+
+particular versions 
+npm install webpack@1.x --save-dev
