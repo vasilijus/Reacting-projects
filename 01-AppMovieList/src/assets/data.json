@@ -5,7 +5,7 @@
         "distibutor": "distro1",
         "year": 1422,
         "img": "src/media/1.png",
-        "ranging": 1
+        "ranking": 1
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "distibutor": "distro2",
         "year": 2422,
         "img": "src/media/2.png",
-        "ranging": 2
+        "ranking": 2
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "distibutor": "distro3",
         "year": 3422,
         "img": "src/media/3.png",
-        "ranging": 3
+        "ranking": 3
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "distibutor": "distro4",
         "year": 4422,
         "img": "src/media/4.png",
-        "ranging": 4
+        "ranking": 4
     }
     
 ]
