@@ -5,8 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <List />
+        <nav className='navbar sticky-top navbar-light bg-dark'></nav>
       </header>
+      <br />
+      <List />
     </div>
   );
 }
