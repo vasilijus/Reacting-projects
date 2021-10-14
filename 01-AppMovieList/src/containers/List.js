@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Card from '../components/Card/Card.js';
-import testData from './data.json';
+import testData from '../assets/data.json';
 
 class List extends Component {
     constructor() {
@@ -12,7 +12,7 @@ class List extends Component {
     }
 
     async componentDidMount() {
-        const movies = await fetch('./data.json');
+        const movies = await fetch('../assets/data.json');
         const moviesJSON = await movies.json();
         if (moviesJSON) {
             this.setState({
@@ -22,8 +22,7 @@ class List extends Component {
         }
         
     }
-
-                
+           
     render() {
         console.log(JSON.stringify(testData)); // works
 
