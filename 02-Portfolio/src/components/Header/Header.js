@@ -1,16 +1,16 @@
 import React from 'react';
+import logo from '../../git-logo.jpg';
 import './Header.css';
-import Link from  '../Link/Link.js';
 
 
-const Header = ({logo}) => {
+const Header = () => {
     return (
         <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-            Edit <code>src/App.js</code> and save to reload.
-            </p>
-            <Link url="https://reactjs.org" title="Component Link" />
+            {/* <img src={logo} className="App-logo" alt="logo" /> */}
+            <h1>
+                My Git Portffilio
+            </h1> 
+
         </header>
     );
 }
