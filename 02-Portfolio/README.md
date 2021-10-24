@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+---
+
+## Extras:
+
+Set up a serve package
+`npm i -g serve`
+
+run it with: `serve -s build` . 
+The -s flag is used to redirect any navigation requests that aren't found
+back to our index.js file.
