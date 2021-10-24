@@ -80,3 +80,10 @@ Set up a serve package
 run it with: `serve -s build` . 
 The -s flag is used to redirect any navigation requests that aren't found
 back to our index.js file.
+
+---
+
+get github details of the user: `https://api.github.com/users/username`
+
+---
+
