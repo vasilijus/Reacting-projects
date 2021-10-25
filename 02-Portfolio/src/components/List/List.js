@@ -1,8 +1,14 @@
 import React from "react";
 
-const List = () => {
+const List = ({ items }) => {
     return (
-        <div></div>
+        <ul>
+            {items.map(item =>
+            <li key={item.label}>
+            <strong>{item.label}</strong>{item.value}
+            </li>
+            )}
+        </ul>
     )
 }
 
