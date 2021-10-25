@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Link from '../components/Link/Link';
 import List from '../components/List/List';
 import './Profile.css';
-import {reposJSON} from './repos';
 
 class Profile extends Component
 {
