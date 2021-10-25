@@ -5,8 +5,9 @@ const LaneWrapper = styled.div`
   list-style: none;
   text-align: left;
   padding: 0;
+  box-shadow: 0px 0px 5px 1px #0000005e;
   background: lightGray;
-  border-radius: 20px;
+  border-radius: 10px;
   min-height: 50vh;
   width: 20vw;
 

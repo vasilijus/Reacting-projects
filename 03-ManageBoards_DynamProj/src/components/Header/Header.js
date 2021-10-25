@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const HeaderWrapper = styled.div`
-  background-color: blue;
+  background-color: #3939cd;
   height: 100%;
   display: flex;
   flex-direction: column;
