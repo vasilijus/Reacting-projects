@@ -93,3 +93,14 @@ are used to list children components inside a single enclosing tag without
 the need to add extra nodes to the DOM.
 
 ---
+
+Notes:
+
+Create React App: https:/ / facebook. github. io/ create- react- app/
+Using npx: https:/ / medium. com/ @maybekatz/ introducing- npx- an- npmpackage-
+runner- 55f7d4bd282b
+PWA with Create React App https:/ / facebook. github. io/ create- react- app/
+docs/ making- a- progressive- web- app
+About the manifest.json
+file: https://developers.chrome.com/apps/manifest
+Styled components: https:/ / www. styled- components. com/ docs/ basics
