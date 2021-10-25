@@ -14,6 +14,34 @@ const BoardWrapper = styled.div`
 `;
 
 class Board extends Component {
+  constructor() {
+    super();
+    this.state = {
+      data: [],
+      loading: true,
+      error: '',
+    }
+  }
+
+  async componentDidMount() {
+    try {
+      const tickets = await fetch('../../assets/data.json');
+      const ticketsJSON = await tickets.json();
+
+      if(ticketsJSON) {
+        this.setState({
+          data: ticketsJSON,
+          loading: false,
+        });
+      }
+    } catch (error) {
+      this.setState({
+        loading: false,
+        error: error.message,
+      });
+    }
+  }
+
   render() {
     const lanes = [
       { id: 1, title: 'To Do' },
