@@ -5,7 +5,7 @@ const List = ({ items }) => {
         <ul>
             {items.map(item =>
             <li key={item.label}>
-            <strong>{item.label}</strong>{item.value}
+                <strong>{item.label}</strong> {item.value}
             </li>
             )}
         </ul>
