@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../git-logo.jpg';
+// import logo from '../../git-logo.jpg';
 import './Header.css';
 
 
