@@ -87,3 +87,9 @@ get github details of the user: `https://api.github.com/users/username`
 
 ---
 
+The `<>` tag is shorthand for `<React.Fragment>`.
+ These React Fragments
+are used to list children components inside a single enclosing tag without
+the need to add extra nodes to the DOM.
+
+---

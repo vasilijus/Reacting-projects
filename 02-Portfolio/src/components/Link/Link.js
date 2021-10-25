@@ -4,7 +4,7 @@ import './Link.css';
 const Link = ({ url, title }) => (
     <a href={ url } 
         class="App-link"
-        target="_blank"
+        target="_blank" rel="noreferrer"
     >{ title }</a>
 );
 
