@@ -1,0 +1,11 @@
+<?php
+// (A) START BUFFERING
+ob_start();
+
+// (B) HOLD "HELLO" AND " WORLD" IN THE BUFFER
+echo "hello";
+echo " world";
+
+// (C) RELEASE "HELLO WORLD" AS SINGLE OUTPUT
+// NOTE: PHP WILL AUTO-FLUSH AT END-OF-SCRIPT EVEN IF OB_FLUSH() IS OMITTED
+ob_flush();
