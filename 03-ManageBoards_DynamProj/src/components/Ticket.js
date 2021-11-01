@@ -9,6 +9,7 @@ const TicketWrapper = styled.div`
     &:not(:last-child) {
         margin-bottom: 5%;
     }
+    box-shadow: 0px 0px 5px 2px #0000007d;
 `;
 
 const Title = styled.h3`
