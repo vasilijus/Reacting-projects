@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 const TicketWrapper = styled.div`
     background-color: darkGray;
-    padding: 20px;
-    border-radius: 20px;
+    padding: 15px;
+    border-radius: 15px;
 
     &:not(:last-child) {
         margin-bottom: 5%;
