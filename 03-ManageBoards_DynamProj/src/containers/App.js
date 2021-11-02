@@ -27,6 +27,7 @@ class App extends Component {
         <AppWrapper>
           <Header />
           <Board />
+
         </AppWrapper>
       </>
     );

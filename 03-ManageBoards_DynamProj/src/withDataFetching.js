@@ -16,7 +16,7 @@ export default function withDataFetching( WrapperComponent ) {
             try {
                 const data = await fetch( this.props.dataSource );
                 const dataJSON = await data.json();
-
+console.log(dataJSON)
                 if (dataJSON) {
                     this.setState({
                         data: dataJSON,
@@ -36,7 +36,14 @@ export default function withDataFetching( WrapperComponent ) {
         render() {
             const { data, loading, error } = this.state;
 
-            
+            return (
+                <WrappedComponent
+                    data={data}
+                    loading={loading}
+                    error={error}
+                    {...this.props}
+                />
+            )
         }
     }
 }
