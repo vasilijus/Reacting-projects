@@ -35,8 +35,6 @@ export default function withDataFetching( WrapperComponent ) {
 
         render() {
             const { data, loading, error } = this.state;
-
-            
         }
     }
 }
