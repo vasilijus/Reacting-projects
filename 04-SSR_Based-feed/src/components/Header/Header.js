@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const HeaderWrapper = styled.div`
-  background-color: orange;
+  background-color: #2e97bd;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@ const Title = styled.h1`
 
 const Header = () => (
   <HeaderWrapper>
-    <Title>Q&A Feed</Title>
+    <Title>Q&A Feed..</Title>
   </HeaderWrapper>
 );
 

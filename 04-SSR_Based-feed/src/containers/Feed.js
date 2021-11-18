@@ -11,6 +11,8 @@ const FeedWrapper = styled.div`
 
 const Alert = styled.div`
   text-align: center;
+  padding:20px 10px;
+  font-size:2rem;
 `;
 
 const ROOT_API = 'https://api.stackexchange.com/2.2/';
