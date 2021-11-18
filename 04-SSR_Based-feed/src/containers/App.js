@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from '../components/Header/Header';
 import Feed from './Feed';
+import Question from '../components/Questions/Questions';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -26,7 +28,13 @@ class App extends Component {
         <GlobalStyle />
         <AppWrapper>
           <Header />
-          <Feed />
+          <Router>
+            <Routes>
+              <Route exact path='/' component={Feed} />
+              <Route path='/question/:id' component={Question} />
+            </Routes>
+          </Router>
+          {/* <Feed /> */}
         </AppWrapper>
       </>
     );
