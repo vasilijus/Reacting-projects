@@ -25,6 +25,7 @@ class Board extends Component {
   }
 
   async componentDidMount() {
+
     try {
       const tickets = await fetch('../../assets/data.json');
       const ticketsJSON = await tickets.json();
@@ -41,9 +42,12 @@ class Board extends Component {
         error: error.message,
       });
     }
+
   }
 
+
   render() {
+
     const { data, loading, error } = this.state;
 
     const lanes = [
@@ -66,7 +70,9 @@ class Board extends Component {
         ))}
       </BoardWrapper>
     );
+
   }
+  
 
 }
 

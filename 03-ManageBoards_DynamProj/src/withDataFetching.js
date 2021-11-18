@@ -16,7 +16,7 @@ export default function withDataFetching( WrapperComponent ) {
             try {
                 const data = await fetch( this.props.dataSource );
                 const dataJSON = await data.json();
-console.log(dataJSON)
+console.log("The Data: ", dataJSON)
                 if (dataJSON) {
                     this.setState({
                         data: dataJSON,
