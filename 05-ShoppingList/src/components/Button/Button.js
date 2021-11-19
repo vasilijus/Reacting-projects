@@ -4,7 +4,7 @@ const Button = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: orange;
+  background: #2e97bd;
   color: white;
   padding: 10px;
   line-height: 2;

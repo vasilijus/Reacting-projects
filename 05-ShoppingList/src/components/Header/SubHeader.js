@@ -6,7 +6,7 @@ const SubHeaderWrapper = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background: navajowhite;
+  background: #2e97bda8;
 `;
 
 const Title = styled.h2`
